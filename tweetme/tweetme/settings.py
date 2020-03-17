@@ -124,3 +124,4 @@ STATICFILES_DIRS = [
 ]
 
 STATIC_ROOT = os.path.join(os.path.join(BASE_DIR,"static-serve"))
+AUTH_USER_MODEL = 'tweetme.MyUser'
